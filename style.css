@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+/*Header Area Start*/
+.heads{
+}
+.heads h1{
+	background: teal;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+/*Tri_Shape Area Start*/
+.tri_shape {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: lightyellow;
+}
+.triangle {
+/* 	height: 200px;
+	width: 200px;
+	background: teal; */
+	border-top: red solid 100px;
+	/*border-bottom: green solid 100px;*/
+	border-left: transparent solid 100px;
+	border-right: transparent solid 100px;
+}
+/*Use_Triangle Area Strat*/
+/*Its a Amazing Example*/
+.use_tri {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	background: lightblue;
+}
+.use_tri img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.content {
+	width: 425px;
+	padding: 30px;
+	background: #eeeeee;
+	border-radius: 10px;
+	margin-top: 50px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+}
+.content::before {
+	content: "";
+	position: absolute;
+	border-bottom: #eeeeee solid 20px;
+	border-left: transparent solid 20px;
+	border-right: transparent solid 20px;
+	top: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+}
+.content p{}
+/*Footer Area Start*/
+.foots{
+}
+.foots p{
+	text-align: center;
+	background: teal;
+	color: #fff;
+	padding: 20px 0;
+}
